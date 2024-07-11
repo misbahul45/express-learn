@@ -1,6 +1,5 @@
 import express  from "express";
-import { v4 as uuidv4 } from 'uuid';
-import { createUser, deleteUser, getUser, getUsers, updateUser } from "../controllers/users";
+import { createUser, deleteUser, getUser, getUsers, updateUser } from "../controllers/users.js";
 
 const userRouter=express.Router()
 
