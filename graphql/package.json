@@ -1,0 +1,19 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+   "dev":"console-ninja node --env-file .env --watch ./src/index.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@apollo/server": "^4.10.5",
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.9.0",
+    "mongoose": "^8.5.2"
+  },
+  "type": "module"
+}
